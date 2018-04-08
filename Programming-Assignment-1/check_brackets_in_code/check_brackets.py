@@ -17,7 +17,7 @@ class Bracket:
         return False
 
 if __name__ == "__main__":
-    text = sys.stdin.read()
+    text = input()#sys.stdin.read()
 
     opening_brackets_stack = []
     for i, next in enumerate(text):
